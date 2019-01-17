@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Company page</title>
+    <style>
+        ul li.logo {
+            list-style-type:none;
+        }
+
+        table {
+            width:25%;
+        }
+
+        table, th, td {
+            border:1px solid #000000;
+            border-collapse:collapse;
+        }
+
+        th, td {
+            padding:15px;
+            text-align:left;
+        }
+
+        table th {
+            color:#ffffff;
+            background-color:#000000;
+        }
+
+        table tr:nth-child(even) {
+            background-color:#eee;
+        }
+
+        table tr:nth-child(odd) {
+            background-color:#fff;
+        }
+    </style>
+</head>
+<body>
+<p>Welcome! Here you can find the following things:</p>
+<ol>
+    <li><a href="#logo">Company's logo</a></li>
+    <li><a href="#employees">List of employees</a></li>
+</ol>
+<h1 id="logo">Company's logo</h1>
+<p>Company uses the following logos:</p>
+<ul>
+    <li>New logo:</li>
+    <li class="logo"><img src="https://dummyimage.com/150x150/e88b00/ffffff.gif&text=New+Logo"/></li>
+    <li>Old logo:</li>
+    <li class="logo"><img src="https://dummyimage.com/150x150/5cabff/ffffff.gif&text=Old+Logo"/></li>
+</ul>
+<h1 id="employees">List of employees</h1>
+<table>
+    <thead>
+    <tr>
+        <th>First name</th>
+        <th>Last name</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Mary</td>
+        <td>Williams</td>
+    </tr>
+    <tr>
+        <td>James</td>
+        <td>Smith</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
